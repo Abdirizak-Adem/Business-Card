@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.avatar {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.card {
+  width: 400px;
+  max-width: 100%;
+  min-width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background: #14213d;
+  color: #fca311;
+  border-bottom: 6px solid #e5e5e5;
+  border-radius: 10px;
+}
